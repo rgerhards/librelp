@@ -16,18 +16,24 @@ VALGRIND_TESTS= \
 TESTS=  basic.sh \
 	tls-basic.sh \
 	tls-basic-anon.sh \
-	tls-wrong-permittedPeer.sh \
-	tls-wrong-authname.sh \
-	tls-missing-param-sender.sh \
-	tls-missing-param-receiver.sh \
-	long-msg.sh \
-	oversize-msg-abort-errmsg.sh \
-	oversize-msg-accept-errmsg.sh \
-	truncate-oversize-msg.sh
+	tls-wrong-permittedPeer.sh 
+
+#	tls-wrong-authname.sh \
+#	tls-missing-param-sender.sh \
+#	tls-missing-param-receiver.sh \
+#	long-msg.sh \
+#	oversize-msg-abort-errmsg.sh \
+#	oversize-msg-accept-errmsg.sh \
+#	truncate-oversize-msg.sh
 
 if HAVE_VALGRIND
 TESTS += $(VALGRIND_TESTS)
 endif
+
+tls-basic.sh.log: basic.sh.log
+tls-basic-vg.sh.log: tls-basic.sh.log
+tls-basic-anon.sh.log: tls-basic-vg.sh.log
+tls-wrong-permittedPeer.sh.log: tls-basic-anon.sh.log
 
 EXTRA_DIST=$(TESTS) \
 	$(VALGRIND_TESTS) \
