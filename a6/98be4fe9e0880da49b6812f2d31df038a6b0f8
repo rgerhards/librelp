@@ -1,0 +1,64 @@
+src/tcp.h
+  s_47209220d82e2a::t_4be991ed7cca82 144
+src/tcp.c
+  s_47209220d82e2a::t_655edd999b536f 1466-1467,1472-1475,1478-1480,1484,1488,1492-1493,1496,1500,1512
+  s_47209220d82e2a::t_bcd8623ed01b94 1860,1970,1992-1994
+  s_47209220d82e2a::t_8609ae7711d01d 181,1446-1452,1455,1469-1471,1961,2054,2068
+  s_47209220d82e2a::t_7abc8234838062 1774-1775,1779
+  s_47209220d82e2a::t_c4040fd45f4fea 526-528,558-560,563,565,567-571,574,578,582
+  s_47209220d82e2a::t_953688e6d3fa6a 533,2710
+  s_47209220d82e2a::t_7bf19a2348b654 3465,3477-3485
+  s_47209220d82e2a::t_762469488841bc 883-888
+tests/tls-wrong-signedcert.sh
+  s_47209220d82e2a::t_4ab464e60dfbcb 8
+  s_47209220d82e2a::t_3fc99be5ce6ba4 12
+tests/plain-send-sigpipe.c
+  s_47209220d82e2a::t_f2645499edbf65 1-55
+tests/Makefile.am
+  s_47209220d82e2a::t_ddf6de1ca079eb 107-108
+  s_47209220d82e2a::t_75ed265128a026 129
+  s_47209220d82e2a::t_6ea4b1ea60f3f5 130-132
+  s_47209220d82e2a::t_f2645499edbf65 4-10
+src/sendbuf.c
+  s_47209220d82e2a::t_580c4948dd9627 203-204
+tests/syslog-callback-failure.sh
+  s_47209220d82e2a::t_3b78601316c26c 5-6,8,10-11,18
+  s_47209220d82e2a::t_75ed265128a026 1-4,7,9,12-17,19-21
+tests/tls-ossl-client-untrusted-server.sh
+  s_47209220d82e2a::t_ab3075d5ff7750 14,18
+  s_47209220d82e2a::t_ddf6de1ca079eb 1-13,15-17,19
+src/sendq.c
+  s_47209220d82e2a::t_7bf19a2348b654 128,135-139
+src/scsyslog.c
+  s_47209220d82e2a::t_580c4948dd9627 64,66,68-69,71-72
+  s_47209220d82e2a::t_fe807841386dfc 75
+tests/tls-ossl-connect-failure-vg.sh
+  s_47209220d82e2a::t_b5977f0e9752a8 25-26,39
+src/relp.c
+  s_47209220d82e2a::t_2defde932c7972 819-820
+  s_47209220d82e2a::t_1b6bb00d1c45ac 210-215
+  s_47209220d82e2a::t_f3ea0b8bc05534 987-991,1000-1004,1106,1129,1133-1141
+  s_47209220d82e2a::t_580c4948dd9627 1183-1185,1187-1188,1191-1192,1195-1196,1199-1200
+  s_47209220d82e2a::t_aa322f49504fa4 147,149-151,203-204,224,227,231-239,761-762,821,824-825,838-839,841-842,845
+tests/receive.c
+  s_47209220d82e2a::t_cbf8d770c2ebab 49,139-140,292,298,316-317,321,409-414,496-497
+tests/plain-send-sigpipe.sh
+  s_47209220d82e2a::t_6ea4b1ea60f3f5 2
+  s_47209220d82e2a::t_f2645499edbf65 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "a698be4fe9e0880da49b6812f2d31df038a6b0f8",
+  "prompts": {},
+  "sessions": {
+    "s_47209220d82e2a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fd59-e907-7f12-825c-c723a58aed13",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
