@@ -1,0 +1,42 @@
+tests/session-limits.sh
+  s_47209220d82e2a::t_eee556cefc9698 1-3,5-6,22
+  s_47209220d82e2a::t_a6ecfc3c34a73b 4
+  s_47209220d82e2a::t_17df5d5b9730c6 7-21
+src/relp.h
+  s_47209220d82e2a::t_fd65ae00fafcf5 162-164
+src/relp.c
+  s_47209220d82e2a::t_2fcbed63e2b761 762
+  s_47209220d82e2a::t_fd65ae00fafcf5 300-302,718-761,763-769,815-823,969,999-1000,1046,1104-1106
+  s_47209220d82e2a::t_f722d4b75152ed 38
+src/librelp.h
+  s_47209220d82e2a::t_2fcbed63e2b761 206-207,209-210,212-213
+  s_47209220d82e2a::t_fd65ae00fafcf5 208,211,214
+tests/receive.c
+  s_47209220d82e2a::t_c8bd041a68b25b 288,317-319,328-336,495-497
+src/relpsess.h
+  s_47209220d82e2a::t_fd65ae00fafcf5 37,75-76
+tests/Makefile.am
+  s_47209220d82e2a::t_eee556cefc9698 129,176
+src/relpsess.c
+  s_47209220d82e2a::t_fd65ae00fafcf5 136-138,309-313
+tests/session-limits.py
+  s_47209220d82e2a::t_eee556cefc9698 1-5,7-58,76-82,94-100,111
+  s_47209220d82e2a::t_17df5d5b9730c6 6,101-110,112-115
+  s_47209220d82e2a::t_a6ecfc3c34a73b 59-75,83-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "5731e0772b6c1c7411fc6e28823822ec8f07454a",
+  "prompts": {},
+  "sessions": {
+    "s_47209220d82e2a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fd59-e907-7f12-825c-c723a58aed13",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
