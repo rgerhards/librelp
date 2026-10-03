@@ -1,0 +1,21 @@
+tests/tls-ossl-client-untrusted-server.sh
+  s_47209220d82e2a::t_adcda49d90d6e5 17
+tests/session-limits.py
+  s_47209220d82e2a::t_adcda49d90d6e5 12,22-23,37,39,72,98-99
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "b39ed2fe04de98b94e7579093b11e71b3ac864f5",
+  "prompts": {},
+  "sessions": {
+    "s_47209220d82e2a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fd59-e907-7f12-825c-c723a58aed13",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
