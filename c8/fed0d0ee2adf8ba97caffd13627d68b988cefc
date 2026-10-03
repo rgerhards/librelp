@@ -1,0 +1,27 @@
+src/tcp.c
+  s_47209220d82e2a::t_2c324929f685ae 1511,1644-1647,1672,1700,1724,3234-3235,3408-3409,3416,3428
+tests/Makefile.am
+  s_47209220d82e2a::t_0a492d3b1b2ba7 105,155-161,194-195
+tests/tls-openssl-retry-state.c
+  s_47209220d82e2a::t_eca7c789fec964 1-116
+tests/tls-openssl-retry-state.sh
+  s_47209220d82e2a::t_c8eaf365a7f057 1-5
+tests/tls-ossl-certvalid-no-trust-anchor.sh
+  s_47209220d82e2a::t_2ccf9023c9b817 1-35
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "c8fed0d0ee2adf8ba97caffd13627d68b988cefc",
+  "prompts": {},
+  "sessions": {
+    "s_47209220d82e2a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0fd59-e907-7f12-825c-c723a58aed13",
+        "model": "gpt-6-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
