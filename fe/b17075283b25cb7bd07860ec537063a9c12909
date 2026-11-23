@@ -1,0 +1,49 @@
+Makefile.am
+  s_78e29c811a4747::t_0742fcdac71305 8-9
+tests/tls-ossl-retry-state.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+tests/permitted-peer-lifetime.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+src/relp.h
+  s_78e29c811a4747::t_0742fcdac71305 1-2,9-10,13
+src/sendq.h
+  s_78e29c811a4747::t_0742fcdac71305 1-2,9-10,13
+tests/tls-gtls-lifecycle.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+src/cmdif.h
+  s_78e29c811a4747::t_0742fcdac71305 1-2,20-21,24
+src/copen.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2,9-10,13
+src/offers.h
+  s_78e29c811a4747::t_0742fcdac71305 1-2,9-10,13
+src/dbllinklist.h
+  s_78e29c811a4747::t_0742fcdac71305 1-2,9-10,13
+COPYING.ASL20
+  s_78e29c811a4747::t_0742fcdac71305 1-202
+tests/have_tlslib.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+src/compat/strndup.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+src/sendbuf.h
+  s_78e29c811a4747::t_0742fcdac71305 1-2,9-10,13
+tests/tcp-accept-fd-reuse.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+tests/tls-ossl-fd-reuse.c
+  s_78e29c811a4747::t_0742fcdac71305 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "feb17075283b25cb7bd07860ec537063a9c12909",
+  "prompts": {},
+  "sessions": {
+    "s_78e29c811a4747": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20858-0243-7b42-b009-a30c5bed3dfc",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
