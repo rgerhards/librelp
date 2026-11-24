@@ -1,0 +1,21 @@
+tests/chkseq.c
+  s_22507e5674f038::t_3ea51489c90ee5 1,13,15,23,30,32,35-220,223-232
+tests/msleep.c
+  s_22507e5674f038::t_5139f97f3d9743 1,10,16,18,21,24-26,28-31,33-39,41
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7085bef4280098b44cbd831d4334b6f7d27700fc",
+  "prompts": {},
+  "sessions": {
+    "s_22507e5674f038": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20d5e-fd81-7011-852f-d4c036955e9f",
+        "model": "unknown"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
