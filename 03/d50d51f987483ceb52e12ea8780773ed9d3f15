@@ -1,0 +1,23 @@
+src/sourcebind.h
+  s_78e29c811a4747::t_7a745584ca4dbf 21-22
+src/sourcebind.c
+  s_78e29c811a4747::t_7a745584ca4dbf 48-66,69,71-74
+src/tcp.c
+  s_78e29c811a4747::t_7a745584ca4dbf 3794-3798,3807
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "03d50d51f987483ceb52e12ea8780773ed9d3f15",
+  "prompts": {},
+  "sessions": {
+    "s_78e29c811a4747": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20858-0243-7b42-b009-a30c5bed3dfc",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
