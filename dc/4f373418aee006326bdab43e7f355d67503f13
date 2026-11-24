@@ -1,0 +1,19 @@
+src/sourcebind.c
+  s_78e29c811a4747::t_af8e099ca52394 11-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dc4f373418aee006326bdab43e7f355d67503f13",
+  "prompts": {},
+  "sessions": {
+    "s_78e29c811a4747": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20858-0243-7b42-b009-a30c5bed3dfc",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
