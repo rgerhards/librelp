@@ -1,0 +1,30 @@
+src/librelp.h
+  s_78e29c811a4747::t_3140460890c6e2 308
+tests/Makefile.am
+  s_78e29c811a4747::t_3140460890c6e2 8,185
+  s_78e29c811a4747::t_021493f64c143c 4,9-12,14-16
+  s_78e29c811a4747::t_bf01b5d3bc1d96 5-6
+  s_78e29c811a4747::t_d455cbe97aacd9 7,13,134-135
+tests/client-source-reconnect.c
+  s_78e29c811a4747::t_021493f64c143c 1-85
+tests/client-source-reconnect.sh
+  s_78e29c811a4747::t_3140460890c6e2 1-3
+src/relpclt.c
+  s_78e29c811a4747::t_9f3340b6792777 156,166-167
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "0fbc560707870124118c5ef8901ee3add381dca4",
+  "prompts": {},
+  "sessions": {
+    "s_78e29c811a4747": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20858-0243-7b42-b009-a30c5bed3dfc",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
