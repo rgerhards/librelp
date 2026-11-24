@@ -1,0 +1,27 @@
+src/scrsp.c
+  s_78e29c811a4747::t_6d72c4a690bd4a 1-2,9-10,13
+src/tcp.h
+  s_78e29c811a4747::t_d595b95140ea98 37
+src/cclose.c
+  s_78e29c811a4747::t_6d72c4a690bd4a 1-2,9-10,13
+src/scsyslog.c
+  s_78e29c811a4747::t_6d72c4a690bd4a 1-2,11-12,15
+src/cserverclose.c
+  s_78e29c811a4747::t_6d72c4a690bd4a 1-2,9-10,13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "7c0e242b52de8f923ab2d72d3b5fb263ee56f17f",
+  "prompts": {},
+  "sessions": {
+    "s_78e29c811a4747": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a20858-0243-7b42-b009-a30c5bed3dfc",
+        "model": "gpt-6.2-sol"
+      },
+      "human_author": null
+    }
+  }
+}
