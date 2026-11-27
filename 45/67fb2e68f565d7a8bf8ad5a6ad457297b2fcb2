@@ -1,0 +1,19 @@
+src/tcp.c
+  s_30d71eb43d396b::t_bc14be4d906323 2042-2043,2063-2066
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4567fb2e68f565d7a8bf8ad5a6ad457297b2fcb2",
+  "prompts": {},
+  "sessions": {
+    "s_30d71eb43d396b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a21bd4-b551-7e73-859b-2832fd84c09b",
+        "model": "gpt-6.1-terra"
+      },
+      "human_author": "Rainer Gerhards <rgerhards@adiscon.com>"
+    }
+  }
+}
